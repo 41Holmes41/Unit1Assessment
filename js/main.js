@@ -15,6 +15,11 @@ minus.addEventListener('click', function(){
 })
 
 function render() {
+
     counter.innerHTML=total;
+
+    if (total<0){
+        counter.style.color = "red";
+    }
 
 }
