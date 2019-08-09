@@ -5,21 +5,6 @@ let counter = document.querySelector('.counter');
 let total = 0;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 add.addEventListener('click', function(){
     total += parseInt(input.value);
     render();
