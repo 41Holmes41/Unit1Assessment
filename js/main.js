@@ -38,4 +38,8 @@ function render() {
         counter.style.color = "red";
     }
 
+    if (total>0) {
+        counter.style.color= "black";
+    }
+
 }
